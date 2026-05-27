@@ -63,14 +63,28 @@ Open:
 http://127.0.0.1:8000/docs
 [text](../response_1779838502680.json)
 
+11. Push to GitHub
+Create repo on:
+GitHub
+
 Create .gitignore
 Inside your project root:
 ai-support-agent-grv/
 Create file:
 .gitignore
 
+# Create GitHub Repository
+[text](../GitHubsetup.txt)
+![alt text](<../Screenshot (238).png>)
 
-# FIX/PROBLEM
+12. Deploy Backend to Railway
+Open:
+Railway
+
+# contin..............
+
+
+# FIX/PROBLEM- 401/invalid key
 [text](<../invalid key.txt>)
 
 # OUTPUT
