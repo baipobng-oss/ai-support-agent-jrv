@@ -1,0 +1,36 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Text files
+*.txt
+
+# JSON files
+*.json
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+img/
+
+# Node
+node_modules/
+
+# Secrets
+secret/
+keys/
