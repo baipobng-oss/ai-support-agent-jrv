@@ -15,9 +15,6 @@ __pycache__/
 # Logs
 *.log
 
-# Text files
-*.txt
-
 # JSON files
 *.json
 
@@ -34,3 +31,9 @@ node_modules/
 # Secrets
 secret/
 keys/
+
+GitHubsetup.txt
+
+invalid key.txt
+
+backend/README.md
