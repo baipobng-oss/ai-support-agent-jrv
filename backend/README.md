@@ -77,12 +77,46 @@ Create file:
 [text](../GitHubsetup.txt)
 ![alt text](<../Screenshot (238).png>)
 
+AND pushed to GitHub:
+git add .
+git commit -m "fix uvicorn"
+git push
+
 12. Deploy Backend to Railway
 Open:
 Railway
 
-# contin..............
+# RUN
+uvicorn main:app --reload --port 8001
+ai-support-agent-jrv-production.up.railway.app
+# problem *******
 
+13. Create Frontend (Next.js)
+Create app:
+npx create-next-app@latest frontend
+
+Choose:
+TypeScript → No
+ESLint → Yes
+Tailwind → Yes
+App Router → Yes
+
+14. Frontend Structure
+frontend/
+│
+├── app/
+│   └── page.js
+└── .env.local
+
+15. Replace app/page.js
+Replace:
+YOUR_RAILWAY_BACKEND_URL
+https://ai-support-agent-jrv-production.up.railway.app
+
+# upgdate pust to github
+git add .
+git commit -m "fix railway production"
+git push
 
 # FIX/PROBLEM- 401/invalid key
 [text](<../invalid key.txt>)

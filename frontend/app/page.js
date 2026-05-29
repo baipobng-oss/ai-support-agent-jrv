@@ -10,7 +10,7 @@ export default function Home() {
   const sendMessage = async () => {
 
     const res = await fetch(
-      "YOUR_RAILWAY_BACKEND_URL/chat",
+      "https://ai-support-agent-jrv-production.up.railway.app/chat",
       {
         method: "POST",
         headers: {
